@@ -1,0 +1,14 @@
+Início
+
+Ler valor_saque
+Ler saldo_disponivel
+
+Se valor_saque <= saldo_disponivel então
+    saldo_disponivel = saldo_disponivel - valor_saque
+    Mostrar "Saque realizado"
+    Entregar as notas
+Senão
+    Mostrar "Saldo insuficiente"
+FimSe
+
+Fim
